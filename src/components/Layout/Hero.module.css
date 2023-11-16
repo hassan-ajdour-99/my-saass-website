@@ -1,0 +1,34 @@
+.container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 600px;
+}
+
+.getButton {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.heroImage {
+  width: 100%;
+  margin-top: -10rem;
+}
+
+.button1 {
+  border: none;
+  background-color: rgb(70, 70, 237);
+  color: #fff;
+}
