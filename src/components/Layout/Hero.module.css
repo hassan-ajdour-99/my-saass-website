@@ -32,3 +32,11 @@
   background-color: rgb(70, 70, 237);
   color: #fff;
 }
+
+@media (max-width: 550px) {
+  .container {
+  }
+
+  .contnet {
+  }
+}

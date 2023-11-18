@@ -28,3 +28,11 @@
   background: rgb(86, 86, 250) e;
   cursor: pointer;
 }
+
+@media (max-width: 550px) {
+  .container {
+  }
+
+  .contnet {
+  }
+}
