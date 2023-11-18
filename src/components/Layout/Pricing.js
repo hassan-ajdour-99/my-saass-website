@@ -5,14 +5,14 @@ function Pricing() {
   return (
     <div className={classes.container}>
       <div className={classes.content}>
-        <h3>Pricing</h3>
+        <h1>Pricing</h1>
         <p>
           Start free and scale while you grow. No hidden fees. Unlimited users
           for free.
         </p>
         <div className={classes.cards}>
-          <div className={classes.card}>
-            <h3>Simple</h3>
+          <div className={classes.card1}>
+            <h1>Simple</h1>
             <p>
               Keep track of your contacts, gain valuable insights, analyse live
               data and performance metrics.
@@ -20,8 +20,8 @@ function Pricing() {
             <h1>
               Free <span>*No credit card needed</span>
             </h1>
-            <span className={classes.borderButtom}></span>
-            <div>
+            <span className={classes.borderButtom2}></span>
+            <div className={classes.services}>
               <p> Real-Time Monitoring</p>
               <p>Track key performance indicators</p>
               <p>Schedule appointments</p>
@@ -29,15 +29,15 @@ function Pricing() {
             </div>
             <button> Get Started </button>
           </div>
-          <div className={classes.card}>
-            <h3>Simple</h3>
+          <div className={classes.card2}>
+            <h1>Premuim</h1>
             <p>
               Keep track of your contacts, gain valuable insights, analyze live
               data and performance metrics.
             </p>
             <h1>$49 /month</h1>
             <span className={classes.borderButtom}></span>
-            <div>
+            <div className={classes.services}>
               <p>Everything from the free plan plus:</p>
               <p>Data-driven decisions</p>
               <p>Data visualization</p>
@@ -46,6 +46,10 @@ function Pricing() {
             <button> Get Started </button>
           </div>
         </div>
+        <h3>
+          All prices are in USD and charged per month with applicable taxes
+          added at checkout.
+        </h3>
       </div>
     </div>
   );

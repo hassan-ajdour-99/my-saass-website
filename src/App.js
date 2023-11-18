@@ -3,6 +3,8 @@ import Header from "./components/Layout/Header";
 import Hero from "./components/Layout/Hero";
 import Showcase from "./components/Layout/Showcase";
 import Services from "./components/Layout/Services";
+import Pricing from "./components/Layout/Pricing";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Showcase />
       <Services />
+      <Pricing />
+      <Footer />
     </div>
   );
 }
